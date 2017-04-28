@@ -836,11 +836,11 @@ input.error,textarea.error{
 		height: 24px;
 		top: 182px;
 		left: 138px;
-		-webkit-animation: vis 1s 1 1.5s ease-in-out forwards;
-		-moz-animation: vis 1s 1 1.5s ease-in-out forwards;
-		-ms-animation: vis 1s 1 1.5s ease-in-out forwards;
-		-o-animation: vis 1s 1 1.5s ease-in-out forwards;
-		animation: vis 1s 1 1.5s ease-in-out forwards;
+		-webkit-animation: invis 1s 1 1.5s ease-in-out forwards;
+		-moz-animation: invis 1s 1 1.5s ease-in-out forwards;
+		-ms-animation: invis 1s 1 1.5s ease-in-out forwards;
+		-o-animation: invis 1s 1 1.5s ease-in-out forwards;
+		animation: invis 1s 1 1.5s ease-in-out forwards;
 	}
 	.slick-active .big-blesk {
 		background-position: center bottom;
@@ -849,11 +849,11 @@ input.error,textarea.error{
 		top: 157px;
 		left: 84px;
 		opacity: 0;
-		-webkit-animation: vis 1s 1 1.2s ease-in-out forwards;
-		-moz-animation: vis 1s 1 1.2s ease-in-out forwards;
-		-ms-animation: vis 1s 1 1.2s ease-in-out forwards;
-		-o-animation: vis 1s 1 1.2s ease-in-out forwards;
-		animation: vis 1s 1 1.2s ease-in-out forwards;
+		-webkit-animation: vis 1s 1 1.5s ease-in-out forwards;
+		-moz-animation: vis 1s 1 1.5s ease-in-out forwards;
+		-ms-animation: vis 1s 1 1.5s ease-in-out forwards;
+		-o-animation: vis 1s 1 1.5s ease-in-out forwards;
+		animation: vis 1s 1 1.5s ease-in-out forwards;
 	}
 	.slick-active .pen {
 		background-position: 188px 300px;
@@ -1301,11 +1301,11 @@ input.error,textarea.error{
 		top: 111px;
 		left: 65px;
 		opacity: 0;
-		-webkit-animation: vis 0.5s 2s ease-in-out forwards;
-		-moz-animation: vis 0.5s 1 2s ease-in-out forwards;
-		-ms-animation: vis 0.5s 1 2s ease-in-out forwards;
-		-o-animation: vis 0.5s 1 2s ease-in-out forwards;
-		animation: vis 0.5s 1 2s ease-in-out forwards;
+		-webkit-animation: vis 0.5s 1.5s ease-in-out forwards;
+		-moz-animation: vis 0.5s 1 1.5s ease-in-out forwards;
+		-ms-animation: vis 0.5s 1 1.5s ease-in-out forwards;
+		-o-animation: vis 0.5s 1 1.5s ease-in-out forwards;
+		animation: vis 0.5s 1 1.5s ease-in-out forwards;
 	}
 	.slide-4 .main-2 {
 		top: 50px;
@@ -1341,17 +1341,12 @@ input.error,textarea.error{
 		width: 212px;
 		height: 76px;
 		top: 175px;
-		left: 145px;
+		left: 195px;
 		-webkit-transform: rotate(45deg);
 		-moz-transform: rotate(45deg);
 		-ms-transform: rotate(45deg);
 		-o-transform: rotate(45deg);
 		transform: rotate(45deg);
-		-webkit-animation: moveshpritz 1s 1 1s ease-in-out forwards;
-		-moz-animation: moveshpritz 1s 1 1s ease-in-out forwards;
-		-ms-animation: moveshpritz 1s 1 1s ease-in-out forwards;
-		-o-animation: moveshpritz 1s 1 1s ease-in-out forwards;
-		animation: moveshpritz 1s 1 1s ease-in-out forwards;
 	}
 	.slick-active .back {
 		position: absolute;
@@ -1365,92 +1360,7 @@ input.error,textarea.error{
 		-o-transform: rotate(45deg);
 		transform: rotate(45deg);
 		top: 205px;
-		left: 171px;
-		-webkit-animation: moveback 1s 1 1s ease-in-out forwards;
-		-moz-animation: moveback 1s 1 1s ease-in-out forwards;
-		-ms-animation: moveback 1s 1 1s ease-in-out forwards;
-		-o-animation: moveback 1s 1 1s ease-in-out forwards;
-		animation: moveback 1s 1 1s ease-in-out forwards;
-	}
-	@-webkit-keyframes moveshpritz {
-		0% {
-			left: 145px;
-		}
-		100% {
-			left: 195px;
-		}
-	}
-	@-moz-keyframes moveshpritz {
-		0% {
-			left: 145px;
-		}
-		100% {
-			left: 195px;
-		}
-	}
-	@-ms-keyframes moveshpritz {
-		0% {
-			left: 145px;
-		}
-		100% {
-			left: 195px;
-		}
-	}
-	@-o-keyframes moveshpritz {
-		0% {
-			left: 145px;
-		}
-		100% {
-			left: 195px;
-		}
-	}
-	@keyframes moveshpritz {
-		0% {
-			left: 145px;
-		}
-		100% {
-			left: 195px;
-		}
-	}
-	@-webkit-keyframes moveback {
-		0% {
-			left: 171px;
-		}
-		100% {
-			left: 221px;
-		}
-	}
-	@-moz-keyframes moveback {
-		0% {
-			left: 171px;
-		}
-		100% {
-			left: 221px;
-		}
-	}
-	@-ms-keyframes moveback {
-		0% {
-			left: 171px;
-		}
-		100% {
-			left: 221px;
-		}
-	}
-	@-o-keyframes moveback {
-		0% {
-			left: 171px;
-		}
-		100% {
-			left: 221px;
-		}
-	}
-	@keyframes moveback {
-		0% {
-			left: 171px;
-		}
-		100% {
-			left: 221px;
-		}
+		left: 221px;
 	}
 	.slick-active .porsh {
 		position: absolute;
@@ -1464,7 +1374,7 @@ input.error,textarea.error{
 		-o-transform: rotate(45deg);
 		transform: rotate(45deg);
 		top: 234px;
-		left: 161px;
+		left: 211px;
 		-webkit-animation: shpritz 1s 1 1s ease-in-out forwards;
 		-moz-animation: shpritz 1s 1 1s ease-in-out forwards;
 		-ms-animation: shpritz 1s 1 1s ease-in-out forwards;
@@ -1474,51 +1384,41 @@ input.error,textarea.error{
 	@-webkit-keyframes shpritz {
 		0% {
 			background-position: -33px 389px;
-			left: 161px;
 		}
 		100% {
-			background-position: -102px 389px;
-			left: 211px;
+			background-position: -73px 389px;
 		}
 	}
 	@-moz-keyframes shpritz {
 		0% {
 			background-position: -33px 389px;
-			left: 161px;
 		}
 		100% {
-			background-position: -102px 389px;
-			left: 211px;
+			background-position: -73px 389px;
 		}
 	}
 	@-ms-keyframes shpritz {
 		0% {
 			background-position: -33px 389px;
-			left: 161px;
 		}
 		100% {
-			background-position: -102px 389px;
-			left: 211px;
+			background-position: -73px 389px;
 		}
 	}
 	@-o-keyframes shpritz {
 		0% {
 			background-position: -33px 389px;
-			left: 161px;
-		}
+			}
 		100% {
-			background-position: -102px 389px;
-			left: 211px;
+			background-position: -73px 389px;
 		}
 	}
 	@keyframes shpritz {
 		0% {
 			background-position: -33px 389px;
-			left: 161px;
 		}
 		100% {
-			background-position: -102px 389px;
-			left: 211px;
+			background-position: -73px 389px;
 		}
 	}
 	.white-blesk-in-position {
@@ -1605,65 +1505,65 @@ input.error,textarea.error{
 	.slick-active .otblesk-1 {
 		top: 149px;
 		left: 53px;
-		-webkit-animation: bleskmore 0.5s 1 1.25s ease-in-out forwards;
-		-moz-animation: bleskmore 0.5s 1 1.25s ease-in-out forwards;
-		-ms-animation: bleskmore 0.5s 1 1.25s ease-in-out forwards;
-		-o-animation: bleskmore 0.5s 1 1.25s ease-in-out forwards;
-		animation: bleskmore 0.5s 1 1.25s ease-in-out forwards;
+		-webkit-animation: bleskmore 0.2s 1 1.1s ease-in-out forwards;
+		-moz-animation: bleskmore 0.2s 1 1.1s ease-in-out forwards;
+		-ms-animation: bleskmore 0.2s 1 1.1s ease-in-out forwards;
+		-o-animation: bleskmore 0.2s 1 1.1s ease-in-out forwards;
+		animation: bleskmore 0.2s 1 1.1s ease-in-out forwards;
 	}
 	.slick-active .otblesk-2 {
 		top: 163px;
 		left: 96px;
-		-webkit-animation: bleskmid 0.5s 1 1.5s ease-in-out forwards;
-		-moz-animation: bleskmid 0.5s 1 1.5s ease-in-out forwards;
-		-ms-animation: bleskmid 0.5s 1 1.5s ease-in-out forwards;
-		-o-animation: bleskmid 0.5s 1 1.5s ease-in-out forwards;
-		animation: bleskmid 0.5s 1 1.5s ease-in-out forwards;
+		-webkit-animation: bleskmid 0.2s 1 1.2s ease-in-out forwards;
+		-moz-animation: bleskmid 0.2s 1 1.2s ease-in-out forwards;
+		-ms-animation: bleskmid 0.2s 1 1.2s ease-in-out forwards;
+		-o-animation: bleskmid 0.2s 1 1.2s ease-in-out forwards;
+		animation: bleskmid 0.2s 1 1.2s ease-in-out forwards;
 	}
 	.slick-active .otblesk-3 {
 		top: 150px;
 		left: 125px;
-		-webkit-animation: bleskmid 0.5s 1 2.25s ease-in-out forwards;
-		-moz-animation: bleskmid 0.5s 1 2.25s ease-in-out forwards;
-		-ms-animation: bleskmid 0.5s 1 2.25s ease-in-out forwards;
-		-o-animation: bleskmid 0.5s 1 2.25s ease-in-out forwards;
-		animation: bleskmid 0.5s 1 2.25s ease-in-out forwards;
+		-webkit-animation: bleskmid 0.2s 1 1.5s ease-in-out forwards;
+		-moz-animation: bleskmid 0.2s 1 1.5s ease-in-out forwards;
+		-ms-animation: bleskmid 0.2s 1 1.5s ease-in-out forwards;
+		-o-animation: bleskmid 0.2s 1 1.5s ease-in-out forwards;
+		animation: bleskmid 0.2s 1 1.5s ease-in-out forwards;
 	}
 	.slick-active .otblesk-4 {
 		top: 174px;
 		left: 178px;
-		-webkit-animation: bleskmax 0.5s 1 1s ease-in-out forwards;
-		-moz-animation: bleskmax 0.5s 1 1s ease-in-out forwards;
-		-ms-animation: bleskmax 0.5s 1 1s ease-in-out forwards;
-		-o-animation: bleskmax 0.5s 1 1s ease-in-out forwards;
-		animation: bleskmax 0.5s 1 1s ease-in-out forwards;
+		-webkit-animation: bleskmax 0.2s 1 1s ease-in-out forwards;
+		-moz-animation: bleskmax 0.2s 1 1s ease-in-out forwards;
+		-ms-animation: bleskmax 0.2s 1 1s ease-in-out forwards;
+		-o-animation: bleskmax 0.2s 1 1s ease-in-out forwards;
+		animation: bleskmax 0.2s 1 1s ease-in-out forwards;
 	}
 	.slick-active .otblesk-5 {
 		top: 168px;
 		left: 264px;
-		-webkit-animation: bleskmid 0.5s 1 2s ease-in-out forwards;
-		-moz-animation: bleskmid 0.5s 1 2s ease-in-out forwards;
-		-ms-animation: bleskmid 0.5s 1 2s ease-in-out forwards;
-		-o-animation: bleskmid 0.5s 1 2s ease-in-out forwards;
-		animation: bleskmid 0.5s 1 2s ease-in-out forwards;
+		-webkit-animation: bleskmid 0.2s 1 1.4s ease-in-out forwards;
+		-moz-animation: bleskmid 0.2s 1 1.4s ease-in-out forwards;
+		-ms-animation: bleskmid 0.2s 1 1.4s ease-in-out forwards;
+		-o-animation: bleskmid 0.2s 1 1.4s ease-in-out forwards;
+		animation: bleskmid 0.2s 1 1.4s ease-in-out forwards;
 	}
 	.slick-active .otblesk-6 {
 		top: 150px;
 		left: 319px;
-		-webkit-animation: bleskmin 0.5s 1 1.25s ease-in-out forwards;
-		-moz-animation: bleskmin 0.5s 1 1.25s ease-in-out forwards;
-		-ms-animation: bleskmin 0.5s 1 1.25s ease-in-out forwards;
-		-o-animation: bleskmin 0.5s 1 1.25s ease-in-out forwards;
-		animation: bleskmin 0.5s 1 1.25s ease-in-out forwards;
+		-webkit-animation: bleskmin 0.2s 1 1.1s ease-in-out forwards;
+		-moz-animation: bleskmin 0.2s 1 1.1s ease-in-out forwards;
+		-ms-animation: bleskmin 0.2s 1 1.1s ease-in-out forwards;
+		-o-animation: bleskmin 0.2s 1 1.1s ease-in-out forwards;
+		animation: bleskmin 0.2s 1 1.1s ease-in-out forwards;
 	}
 	.slick-active .otblesk-7 {
 		top: 138px;
 		left: 295px;
-		-webkit-animation: bleskmore 0.5s 1 2.75s ease-in-out forwards;
-		-moz-animation: bleskmore 0.5s 1 2.75s ease-in-out forwards;
-		-ms-animation: bleskmore 0.5s 1 2.75s ease-in-out forwards;
-		-o-animation: bleskmore 0.5s 1 2.75s ease-in-out forwards;
-		animation: bleskmore 0.5s 1 2.75s ease-in-out forwards;
+		-webkit-animation: bleskmore 0.2s 1 1.6s ease-in-out forwards;
+		-moz-animation: bleskmore 0.2s 1 1.6s ease-in-out forwards;
+		-ms-animation: bleskmore 0.2s 1 1.6s ease-in-out forwards;
+		-o-animation: bleskmore 0.2s 1 1.6s ease-in-out forwards;
+		animation: bleskmore 0.2s 1 1.6s ease-in-out forwards;
 	}
 	@-webkit-keyframes bleskmin {
 		0% {
