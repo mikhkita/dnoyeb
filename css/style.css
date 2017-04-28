@@ -836,11 +836,11 @@ input.error,textarea.error{
 		height: 24px;
 		top: 182px;
 		left: 138px;
-		-webkit-animation: invis 1s 1 1.5s ease-in-out forwards;
-		-moz-animation: invis 1s 1 1.5s ease-in-out forwards;
-		-ms-animation: invis 1s 1 1.5s ease-in-out forwards;
-		-o-animation: invis 1s 1 1.5s ease-in-out forwards;
-		animation: invis 1s 1 1.5s ease-in-out forwards;
+		-webkit-animation: invis 0.6s 1 1.6s ease-in-out forwards;
+		-moz-animation: invis 0.6s 1 1.6s ease-in-out forwards;
+		-ms-animation: invis 0.6s 1 1.6s ease-in-out forwards;
+		-o-animation: invis 0.6s 1 1.6s ease-in-out forwards;
+		animation: invis 0.6s 1 1.6s ease-in-out forwards;
 	}
 	.slick-active .big-blesk {
 		background-position: center bottom;
@@ -849,11 +849,11 @@ input.error,textarea.error{
 		top: 157px;
 		left: 84px;
 		opacity: 0;
-		-webkit-animation: vis 1s 1 1.5s ease-in-out forwards;
-		-moz-animation: vis 1s 1 1.5s ease-in-out forwards;
-		-ms-animation: vis 1s 1 1.5s ease-in-out forwards;
-		-o-animation: vis 1s 1 1.5s ease-in-out forwards;
-		animation: vis 1s 1 1.5s ease-in-out forwards;
+		-webkit-animation: vis 0.6s 1 1.5s ease-in-out forwards;
+		-moz-animation: vis 0.6s 1 1.5s ease-in-out forwards;
+		-ms-animation: vis 0.6s 1 1.5s ease-in-out forwards;
+		-o-animation: vis 0.6s 1 1.5s ease-in-out forwards;
+		animation: vis 0.6s 1 1.5s ease-in-out forwards;
 	}
 	.slick-active .pen {
 		background-position: 188px 300px;
