@@ -2382,7 +2382,7 @@ input:-moz-placeholder {
 		background-image: url("../images/icon-4@2x.png");
 		background-size: 94px 69px;
 	}
-	.run .slick-active .slide-picture {
+	.run .slide-1.slick-active .slide-picture {
 		background-image: url("../images/smile@2x.png"), url("../images/elipse.png");
 		background-size: 400px 320px, 348px 348px;
 	}
