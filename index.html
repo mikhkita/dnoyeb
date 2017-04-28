@@ -43,9 +43,9 @@
 					<a href="http://cosmodent.su/" class="b-logo"></a>
 				</div>
 				<div CLASS="b-consult right clear">
-					<h1>Мечтаете о белоснежной улыбке?</h1>
-					<p>Только до конца мая отбеливание системой «Beyond» по специально низкой цене <b>7&#160;000 руб!</b></p>
-					<a class="btn btn-orange left fancy" href="#b-consult">Получить консультацию</a>
+					<h1>Белоснежная улыбка за одно посещение!</h1>
+					<p>До 10 мая отбеливание системой «Beyond» по специально низкой<br>цене <b>6&#160;990 руб!</b></p>
+					<a class="btn btn-orange left fancy" href="#b-request">Записаться на отбеливание</a>
 				</div>
 			</div>
 		</div>
@@ -262,6 +262,19 @@
 	<div class="b-popup forma" id="b-consult">
 		<H4>Оставьте заявку</H4>
 		<p>И получите бесплатную консультацию</p>
+		<div class="inputs">
+	        <form action="kitsend.php" method="POST" id="b-form-1">
+	            <input type="text" class="inp-name left" id="name" name="name" placeholder="Имя" required>
+	            <input type="text" class="inp-phone left" name="phone" placeholder="Телефон" required>
+	            <input type="hidden" name="subject" value="Бесплатная консультация"/>
+	            <a href="#" type="submit" class="btn btn-gray ajax left" onclick="$('#b-form-1').submit(); return false;">Отправить</a>
+	            <a href="#b-popup-success" class="b-thanks-link fancy" style="display:none;"></a>
+	        </form>
+		</div>
+	</div>
+	<div class="b-popup forma" id="b-request">
+		<H4>Запись на прием</H4>
+		<p>Оставьте Ваши контактные данные и мы свяжемся с Вами в ближайшее время</p>
 		<div class="inputs">
 	        <form action="kitsend.php" method="POST" id="b-form-1">
 	            <input type="text" class="inp-name left" id="name" name="name" placeholder="Имя" required>
