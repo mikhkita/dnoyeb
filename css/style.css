@@ -498,13 +498,13 @@ input.error,textarea.error{
 					background-image: url("../images/ava-1.jpg");
 					background-color: #000000;
 					border-radius: 50%;
-					background-size: cover;
 					border: 4px solid #ffffff;
 					width: 215px;
 					height: 215px;
 					margin-top: 25px;
 					margin-left: 37px;
 					background-repeat: no-repeat;
+					background-position: -134px 6px;
 				}
 				.b-3-slider {
 					width: 950px;
@@ -2382,7 +2382,7 @@ input:-moz-placeholder {
 		background-image: url("../images/icon-4@2x.png");
 		background-size: 94px 69px;
 	}
-	.slide-picture {
+	.run .slick-active .slide-picture {
 		background-image: url("../images/smile@2x.png"), url("../images/elipse.png");
 		background-size: 400px 320px, 348px 348px;
 	}
