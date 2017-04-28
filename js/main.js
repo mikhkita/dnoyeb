@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $('.b-3-slider').slick({
-        autoplay: true,
-        autoplaySpeed: 4000
+        // autoplay: true,
+        // autoplaySpeed: 4000
     });
     $('.b-4-slider').slick({dots: true});	
     var globPos = 0;
