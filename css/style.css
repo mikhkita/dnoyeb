@@ -2367,31 +2367,35 @@ input:-moz-placeholder {
 		background-size: 136px;
 	}
 	.icon-1 {
-		background-image: url('../images/icon-1@2x.png');
+		background-image: url("../images/icon-1@2x.png");
 		background-size: 74px 82px;
 	}
 	.icon-2 {
-		background-image: url('../images/icon-2@2x.png');
+		background-image: url("../images/icon-2@2x.png");
 		background-size: 63px 67px;	
 	}
 	.icon-3 {
-		background-image: url('../images/icon-3@2x.png');
+		background-image: url("../images/icon-3@2x.png");
 		background-size: 71px 82px;
 	}
 	.icon-4 {
-		background-image: url('../images/icon-4@2x.png');
+		background-image: url("../images/icon-4@2x.png");
 		background-size: 94px 69px;
 	}
-	.tooth-1 {
-		background-image: url('../images/tooth-1@2x.png');
+	.slide-picture {
+		background-image: url("../images/smile@2x.png"), url("../images/elipse.png");
+		background-size: 400px 320px, 348px 348px;
+	}
+	.run .slick-active .tooth-1 {
+		background-image: url("../images/tooth-1@2x.png");
 		background-size: 40px 89px;
 	}
-	.tooth-2 {
-		background-image: url('../images/tooth-2@2x.png');
+	.run .slick-active .tooth-2 {
+		background-image: url("../images/tooth-2@2x.png");
 		background-size: 39px 89px;
 	}
-	.tooth-3 {
-		background-image: url('../images/tooth-3@2x.png');
+	.run .slick-active .tooth-3 {
+		background-image: url("../images/tooth-3@2x.png");
 		background-size: 39px 89px;
 	}
 	.main,.slick-active .blesk,.slick-active .big-blesk,.slick-active .pen {
@@ -2403,9 +2407,9 @@ input:-moz-placeholder {
 		background-image: url('../images/smile-3-5slide@2x.png');
 		background-size: 400px 789px;
 	}
-	.main-3,.slick-active .otblesk-1,.slick-active .otblesk-2,.slick-active .otblesk-3,.slick-active .otblesk-4,
+	.slick-active .main-3,.slick-active .otblesk-1,.slick-active .otblesk-2,.slick-active .otblesk-3,.slick-active .otblesk-4,
 	.slick-active .otblesk-5,.slick-active .otblesk-6,.slick-active .otblesk-7 {
-		background-image: ("../images/smile-6slide@2x.png");
+		background-image: url("../images/smile-6slide@2x.png");
 		background-size: 400px 265px;
 	}
 }
