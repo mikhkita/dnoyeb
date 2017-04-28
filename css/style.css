@@ -496,14 +496,15 @@ input.error,textarea.error{
 				}
 				.avatar {
 					background-image: url("../images/ava-1.jpg");
+					background-color: #000000;
 					border-radius: 50%;
-					background-size: cover;
 					border: 4px solid #ffffff;
 					width: 215px;
 					height: 215px;
 					margin-top: 25px;
 					margin-left: 37px;
 					background-repeat: no-repeat;
+					background-position: -134px 6px;
 				}
 				.b-3-slider {
 					width: 950px;
@@ -661,21 +662,21 @@ input.error,textarea.error{
 		background-image: url("../images/tooth-2.png");
 		bottom: 0px;
 		left: 201px;
-		-webkit-animation: badPick 1s 1 1.5s ease-in-out;
-		-moz-animation: badPick 1s 1 1.5s ease-in-out;
-		-ms-animation: badPick 1s 1 1.5s ease-in-out;
-		-o-animation: badPick 1s 1 1.5s ease-in-out;
-		animation: badPick 1s 1 1.5s ease-in-out;
+		-webkit-animation: badPick 1s 1 1.7s ease-in-out;
+		-moz-animation: badPick 1s 1 1.7s ease-in-out;
+		-ms-animation: badPick 1s 1 1.7s ease-in-out;
+		-o-animation: badPick 1s 1 1.7s ease-in-out;
+		animation: badPick 1s 1 1.7s ease-in-out;
 	}
 	.run .slick-active .tooth-3 {
 		background-image: url("../images/tooth-3.png");
 		bottom: 0px;
 		left: 241px;
-		-webkit-animation: goodPick 0.4s 1 2s ease-in-out forwards;
-		-moz-animation: goodPick 0.4s 1 2s ease-in-out forwards;
-		-ms-animation: goodPick 0.4s 1 2s ease-in-out forwards;
-		-o-animation: goodPick 0.4s 1 2s ease-in-out forwards;
-		animation: goodPick 0.4s 1 2s ease-in-out forwards;
+		-webkit-animation: goodPick 0.4s 1 2.4s ease-in-out forwards;
+		-moz-animation: goodPick 0.4s 1 2.4s ease-in-out forwards;
+		-ms-animation: goodPick 0.4s 1 2.4s ease-in-out forwards;
+		-o-animation: goodPick 0.4s 1 2.4s ease-in-out forwards;
+		animation: goodPick 0.4s 1 2.4s ease-in-out forwards;
 	}
 	@-webkit-keyframes badPick {
 		0% {
@@ -1801,7 +1802,6 @@ input.error,textarea.error{
 	}
 	.slick-dots li:nth-child(4) button:before {
 		content: "4" !important;
-		padding-right: 1px;
 	}
 	.slick-dots li:nth-child(5) button:before {
 		content: "5" !important;
@@ -2394,15 +2394,17 @@ input:-moz-placeholder {
 		background-image: url('../images/tooth-3@2x.png');
 		background-size: 39px 89px;
 	}
-	.main, .blesk, .big-blesk, .pen {
+	.main,.slick-active .blesk,.slick-active .big-blesk,.slick-active .pen {
 		background-image: url('../images/smile-2slide@2x.png');
 		background-size: 400px 536px;
 	}
-	.main-2, .gel, .gel-in-position, .back, .porsh, .body, .white-blesk, .light, .white-blesk-in-position {
+	.main-2,.slick-active .gel, .gel-in-position,.slick-active .back,.slick-active .porsh,.slick-active .body,
+	.slickactive .white-blesk,.slick-active .light, .white-blesk-in-position {
 		background-image: url('../images/smile-3-5slide@2x.png');
 		background-size: 400px 789px;
 	}
-	.main-3, .otblesk-1, .otblesk-2, .otblesk-3, .otblesk-4, .otblesk-5, .otblesk-6, .otblesk-7 {
+	.main-3,.slick-active .otblesk-1,.slick-active .otblesk-2,.slick-active .otblesk-3,.slick-active .otblesk-4,
+	.slick-active .otblesk-5,.slick-active .otblesk-6,.slick-active .otblesk-7 {
 		background-image: ("../images/smile-6slide@2x.png");
 		background-size: 400px 265px;
 	}
