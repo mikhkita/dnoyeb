@@ -4,7 +4,7 @@
 	$email_admin = "beatbox787@gmail.com";
 	// $email_admin = "soc.taxi.35@gmail.com";
 
-	$from = "“Каппы Инвизилайн”";
+	$from = "“Отбеливание Beyond”";
 	$email_from = "capp@cosmodent.su";
 
 	$deafult = array("name"=>"Имя","phone"=>"Телефон", "email"=>"E-mail");
